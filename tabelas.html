@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas-3</title>
+</head>
+
+<style>
+    body{
+        background-color: white;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    table{
+        border: solid 4px;
+    }
+    table tr td {
+        border: solid;
+        height: 100px;
+        width: 100px;
+    }
+    caption{
+       font-size: 20px;
+       font-weight: 100;
+    }
+
+    #T1{
+        border: 8px inset;
+        border-style: ridge;
+        border-color: gray;
+        padding: 2px;
+        border-spacing: 5px;   
+        background-size: 10% 10% ;
+        width: 50%;
+        margin: auto;  
+    }
+    #T1:hover{
+        border: 8px inset;
+        border-style: ridge;
+        border-color: gray;
+        padding: 25px;
+        border-spacing: 5px;
+        background-size: 10% 10%;
+        width: 50%;
+    }
+    #T1 td{
+        border: 10px solid;
+       
+    }
+    #T1 td:active{
+        border: 10px solid;
+    
+    }
+    #T2{
+        border: 8px inset;
+        border-style: ridge;
+        border-color: gray;
+        padding: 2px;
+        border-spacing: 5px;   
+        background-size: 10% 10% ;
+        width: 50%;
+        margin: auto;  
+    }
+    #T2:hover{
+        border: 8px inset;
+        border-style: ridge;
+        border-color: gray;
+        padding: 25px;
+        border-spacing: 5px;
+        background-size: 10% 10%;
+        width: 50%;
+    }
+    #T2 td{
+        border: 10px solid;
+       
+    }
+    #T2 td:active{
+        border: 10px solid;
+    
+    }
+    #T3{
+        border: 8px inset;
+        border-style: ridge;
+        border-color: gray;
+        padding: 2px;
+        border-spacing: 5px;   
+        background-size: 10% 10% ;
+        width: 50%;
+        margin: auto;  
+    }
+    #T3:hover{
+        border: 8px inset;
+        border-style: ridge;
+        border-color: gray;
+        padding: 25px;
+        border-spacing: 5px;
+        background-size: 10% 10%;
+        width: 50%;
+    }
+    #T3 td{
+        border: 10px solid;
+       
+    }
+    #T3 td:active{
+        border: 10px solid;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>Atividade Prática- Tabelas-3</h1>
+
+    </header>
+    <main>
+        <table id="T1">
+            <caption>Primeira Tabela</caption>
+             <tbody>
+                <tr>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+             </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <table id="T2">
+            <caption>Segunda Tabela</caption>
+            <tbody>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <table id="T3">
+            <caption>Terceira Tabela</caption>
+            
+                <tr>
+                    <td id="T4" colspan="5">
+                    </td>
+                    <tr>
+                        <td rowspan="4"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="2"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td></td>
+                    </tr>
+
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+</body>
+</html>
